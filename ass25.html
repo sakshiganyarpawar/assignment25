@@ -7,7 +7,26 @@
 </head>
 <body>
    <script>
-    
+    console.log("else-if practice");
+    const per=parseInt(prompt("Enter percentage of student:"));
+    if(per>=90 && per<=100){
+        console.log(` You get Grade A for ${per}%`);
+    }
+    else if(per>=70 && per<80){
+        console.log(` You get Grade C for ${per}%`);
+    }
+     else if(per>=80 && per<90){
+        console.log(` You get Grade B for ${per}%`);
+    }
+    else if(per>=50 && per<60){
+        console.log(` You get Grade E for ${per}%`);
+    }
+    else if(per>=60 && per<70){
+        console.log(` You get Grade D for ${per}%`);
+    }
+     else{
+    console.log(` You are fail only ${per}%`);
+   }
    </script> 
 </body>
 </html>
